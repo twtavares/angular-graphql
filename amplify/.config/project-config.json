@@ -1,0 +1,17 @@
+{
+    "projectName": "angular-graphql",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "angular",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist/angular-graphql",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "ng serve"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

@@ -6,17 +6,22 @@ import { AppComponent } from './app.component';
 import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 
+import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
+    AmplifyAngularModule,
     AppRoutingModule,
     GraphQLModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    AmplifyService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

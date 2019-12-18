@@ -1,0 +1,15 @@
+{
+    "pan": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-angular-graphql-pan-144423-authRole",
+            "UnauthRoleArn": "arn:aws:iam::155077992360:role/amplify-angular-graphql-pan-144423-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::155077992360:role/amplify-angular-graphql-pan-144423-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-angular-graphql-pan-144423-deployment",
+            "UnauthRoleName": "amplify-angular-graphql-pan-144423-unauthRole",
+            "StackName": "amplify-angular-graphql-pan-144423",
+            "StackId": "arn:aws:cloudformation:us-east-1:155077992360:stack/amplify-angular-graphql-pan-144423/a991c000-21b5-11ea-9c06-0e8805686543",
+            "AmplifyAppId": "d34z0cpem2pgw8"
+        }
+    }
+}
